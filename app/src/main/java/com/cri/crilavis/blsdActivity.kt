@@ -1,35 +1,20 @@
 package com.cri.crilavis
 
-import android.content.Intent
 import android.os.Bundle
-import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
-
+class blsdActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_blsd)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-
-        val abcdeImgButton = findViewById<ImageButton>(R.id.imageButtonabcde)
-        abcdeImgButton.setOnClickListener {
-            val intent  = Intent(this, abcdeActivity::class.java)
-            startActivity(intent)
-        }
-        val blsdImgButton = findViewById<ImageButton>(R.id.imageButtonblsd)
-        blsdImgButton.setOnClickListener {
-            val intent  = Intent(this, blsdActivity::class.java)
-            startActivity(intent)
-        }
     }
-
 }

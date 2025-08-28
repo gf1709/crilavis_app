@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blsdActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titleplsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLSD"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"/>
+
+
+        <TextView
+            android:id="@+id/plsdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="-Anticipazione e autoprotezione\n
+-Quick look.\n
+-Sicurezza e valutazione ambientale.\n
+-Valutazione coscienza. Pizzicare e scuotere le spalle (se non traumatico). Effettuo GAS (8-10 sec.)\n
+-Se paziente supino è preferibile stare alla sua destra.\n
+-Se paziente incosciente chiedere di portare il DAE: 'Porta il DAE'\n
+-Posiziono,allineo e scopro. Eccezionalmente:\n
+    -- Se il trasferimento su piano rigido ritarda la prosecuzione,saltare e procedere con la sequenza. Ok RCP sul letto o divano a patto che si aumenti profondita' CTE.\n
+    -- Se DAE non disponibile e rimozione vestiti ritarda la prosecuzione,saltare e procedere con la sequenza.Effettuare la rimozione dei vestiti prima di applicare le placche.\n
+-Triplice manovra pervieta' vie aeree (apro, guardo, iperestendo).\n
+-Consentito posizionare cannula se questo non ritarda la prosecuzione.\n
+-Effettuare GAS per massimo 10 sec. NO valutazione polso carotideo,ricerca segni di circolo (MOTORE).\n
+-Se paziente in ARRESTO CARDIO CIRCOLATORIO far allertare COP, richiedere ALS, applicare placche (il secondo):\n
+-Paziente in ARRESTO CARDIO CIRCOLATORIO, chiama la COP, fai mandare ALS, inizio RCP\n
+    -- Applicare placche stando preferibilmente alla sinistra del paziente.\n
+    -- Posizionare placche come da disegni sulle stesse.\n
+    -Durante applicazione placche fare RCP 30:2\n
+    -Se ventilazioni difficoltose procedere con le sole CTE (Compressioni toraciche)\n
+    -La filastrocca 'Io sono via, voi siete via, tutti sono via. Via radio, telefono e ossigeno' e' espressa dall'operatore DAE ma e' l'altro soccorritore che garantisce fisicamente la sicurezza\n
+    -Dopo prima analisi ed eventuale scarica,se non sono presenti segni di circolo procedere con RCP30:2.\n
+    -Se ventilazioni difficoltose usare tecnica a 2 soccorritori (4 mani)\n
+    -All'inizio delle successive analisi effettuare il cambio (girare in senso orario)\n
+    -** NOTE SEQUENZA BLSD\n
+    -- Il solo arresto respiratorio non e' piu' contemplato.\n
+    -- Se Covid+ / sospetto sconosciuto applicare raccomandazioni Covid al protocollo.\n
+    -- Coscienza dai fianchi.\n
+    -- Mascherina al paziente.\n
+    -- Valutazione respiro (motore) dal fianco.\n
+    -- Ventilazione a 2 soccorritori.
+    " />
+        <TextView
+            android:id="@+id/titleblsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PBLSD"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/blsdText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="-Anticipazione e autoprotezione\n
+-Quick look.\n
+-Sicurezza e valutazione ambientale.\n
+-Valutazione coscienza. Pizzicare e scuotere le spalle (se non traumatico). Valutazione MOTORE (8-10 sec.)\n
+-Se paziente supino è preferibile stare alla sua destra.\n
+-Se paziente incosciente chiedere di portare il DAE: 'Porta il DAE'\n
+-Posiziono,allineo e scopro. Eccezionalmente:\n
+    -- Se il trasferimento su piano rigido ritarda la prosecuzione,saltare e procedere con la sequenza. Ok RCP sul letto o divano a patto che si aumenti profondita' CTE.\n
+    -- Se DAE non disponibile e rimozione vestiti ritarda la prosecuzione,saltare e procedere con la sequenza.Effettuare la rimozione dei vestiti prima di applicare le placche.\n
+-Triplice manovra pervieta' vie aeree (apro,guardo,modica estensione nel bambino, posizione neutra nel lattante)\n
+-Effettuare GAS per massimo 10 sec. NO valutazione polso carotideo,ricerca segni di circolo (MOTORE).\n
+-Se paziente in ARRESTO RESPIRATORIO far allertare COP, richiedere ALS, applicare placche (il secondo):\n
+-'Paziente in ARRESTO RESPIRATORIO, chiama la COP, fai mandare ALS, inizio RCP'\n
+    -- Applicare placche stando preferibilmente alla sinistra del paziente.\n
+    -- Posizionare placche come da disegni sulle stesse.\n
+-Effettuare 5 insufflazioni di soccorso delle quali almeno 2 efficaci.\n
+-Rapida ricerca dei segni di circolo, solo MOTORE, no polso carotideo, se assenti iniziare RCP 15:2 e applicare placche.\n
+    -- Nel bambino durante applicazione placche RCP 15:2 stando tra testa e spalla.\n
+    -- Posizionare placche come da disegni sulle stesse.\n
+    -- la placca posteriore si applica mettendo il paziente sul fianco.\n
+    -- Se in fascia 0-8 anni non sono disponibili placche pediatriche utilizzare placche adulto ( comunicare a COP).\n
+    -- Nel lattante preferibile CTE a '2 pollici', se soccorritore unico CTE a '2 dita'.\n
+-La filastrocca 'Io sono via, voi siete via, tutti sono via. Via radio, telefono e ossigeno' e' espressa dall'operatore DAE ma e' l'altro soccorritore che garantisce fisicamente la sicurezza\n
+-Dopo prima analisi ed eventuale scarica,se non sono presenti segni di circolo procedere con RCP 15:2.\n
+-Se ventilazioni difficoltose usare tecnica a 2 soccorritori (4 mani)\n
+-** NOTE SEQUENZA PBLSD\n
+    -- Se ventilazioni difficoltose usare tecnica a 2 soccorritori.\n
+    -- Se il paziente e' piccolo comprimere il pallone di ventilazione con una sola mano.\n
+    -- Se le ventilazioni risultano particolarmente difficoltose e' consentito posizionare cannula.\n
+    -- Attenzione al suo inserimento:\n
+    -- Nel bambino inserirla rivolta verso la guancia e poi ruotarla verso il basso.\n
+    -- Nel lattante inserirla rivolta verso il basso con l'aiuto di un abbassa lingua.\n
+    -- Il solo arresto respiratorio non e' piu'contemplato.\n
+    -- Se Covid+ / sospetto sconosciuto applicare raccomandazioni Covid al protocollo:\n
+    -- Coscienza dai fianchi.\n
+    -- Mascherina al paziente.\n
+    -- Valutazione respiro (motore) dal fianco.\n
+    -- Ventilazione a 2 soccorritori.
+    "
+            />
+    </LinearLayout>
+</ScrollView>
