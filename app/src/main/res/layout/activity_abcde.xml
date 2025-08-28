@@ -215,6 +215,262 @@
 - Comunicazione con la COP (esito delle valutazioni e parametri vitali)
 " />
 
+        <TextView
+            android:id="@+id/titleTTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADBDE del Trauma - Politraumatizzato"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"
+            />
+
+        <TextView
+            android:id="@+id/titleTTvDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Definizione Politraumatizzato:soggetto con lesioni a carico di due o più distretti corporei sufficientemente gravi da compromettere (realmente o potenzialmente) una o più funzioni vitali."
+            android:textColor="#FF9800"
+            android:textSize="12sp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/ATTV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="ANTICIPAZIONE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ATText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Verifica dei materiali:\n
+- Distribuzione di compiti e ruoli\n
+- Distribuzione del materiale da portare (zaino, aspiratore, O2, DAE).
+" />
+
+        <TextView
+            android:id="@+id/QTTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="QUICK LOOK"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/QLTText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- accessibilità\n
+- vitalità\n
+- cute\n
+- emorragie\n
+- aiuti
+" />
+        <TextView
+            android:id="@+id/ATTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="A – AIRWAY E RACHIDE CERVICALE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ATText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- valutazione della coscienza\n
+- pervietà delle vie aeree\n
+- immobilizazzione del capo\n
+- posizionamento del collare\n
+- ossigeno (12/15 litri/minuto con reservoir)\n
+- Alert:\n
+  - paziente incoscente.\n
+  - compromissione in atto delle vie aeree\n
+  - grave rischio di ostruzione delle vie aeree\n
+  - controindicazioni all’immobilizzazione del rachide cervicale\n
+  - paziente agitato
+" />
+
+        <TextView
+            android:id="@+id/BTTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="B – BREATHING"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/BTText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Osserva il carattere del respiro (normale, difficoltoso, ecc.)\n
+- espansione della gabbia toracica (simmetrica, asimmetrica)\n
+- utilizzo di eventuale muscolatura accessoria.\n
+- presenza di rumori respiratori.\n
+- Palpa, se necessario, la gabbia toracica alla ricerca di lesioni o dolore alla palpazione.\n
+- Conta frequenza respiratoria.\n
+- Saturazione: rileva SpO2\n
+- Alert:\n
+  - dispnea\n
+  - FR maggiore di 30 o  minore di 10 atti/minuto;\n
+  - saturazione  minore di  90% per chiedere la possibilità di somministrare O2
+" />
+
+        <TextView
+            android:id="@+id/CTTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="C – CIRCULATION (CIRCOLAZIONE)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CTText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- trattamento di eventuali emorragie\n
+- presenza del polso, valutare ritmicità e frequenza\n
+- rilevare pressione arteriosa\n
+- valutare colorito cutaneo\n
+- valutare sudorazione\n
+- indice di shock\n
+- Alert:\n
+  - emorragie incontrollabili\n
+  - posizionamento di laccio emostatico\n
+  - polso radiale assente\n
+  - FC  minore di 50 o maggiore di 120 battiti/minuto\n
+  - PAS  minore di  100 mmH
+" />
+
+        <TextView
+            android:id="@+id/DTTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="D – DISABILITY (DISABILITÀ) - Valutazione dello stato neurologico\n"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DTText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Scala SVDN\n
+- Alert:\n
+- mancata risposta allo stimolo verbale (livello D o N della scala SVDN)\n
+- paziente cosciente ma con riferita perdita di coscienza
+" />
+
+        <TextView
+            android:id="@+id/ETTV1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="E – ESPOSIZIONE (Valutazione testa piedi)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ETText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Valutazione testa/piedi alla ricerca di:\n
+- contusioni\n
+- ferite ed emorragie non individuati\n
+- ustioni \n
+- deformità\n
+- limitazioni funzionali degli arti\n
+- deficit di sensibilità o motilità\n
+- dolore\n
+- Protezione termica\n
+- Dinamica dell’evento. Gli eventi di dinamica maggiore sono:\n
+- caduta da oltre 3 m di altezza (o comunque da più della propria altezza nel paziente di età  minore di 14 anni o maggiore di 65 anni);\n
+- eiezione dal veicolo\n
+- proiezione a distanza ( maggiore di 2 metri)\n
+- tempi di estricazione prolungati ( maggiore di 20 min)\n
+- grave deformità del veicolo\n
+- presenza di persone decedute nel veicolo\n
+- arrotamento o schiacciamento da parte del veicolo\n
+- deformazione e/o mancanza del casco protettivo\n
+- età inferiore a 5 anni\n
+- Raccolta dati - AMPIA:\n
+- Allergie\n
+- Medicinali\n
+- Patologie (diabete,ipertensione,epilessia, problemi cardiovascolari)\n
+- Ingerito ultimo pasto (quando?)\n
+- Altro\n
+- Gestione del dolore. Scala 0 - maggiore di  10 del dolore\n
+- Comunicazione con la COP (esito delle valutazioni e parametri vitali)\n
+- Alert:\n
+  - otorragia con alterazione stato di coscienza\n
+  - addome o bacino dolente con deformità o tumefazione\n
+  - amputazioni parziale o completa di estremità\n
+  - sospetta frattura di almeno due segmenti ossei prossimali (deformità con limitazione motoria)\n
+  - deficit di sensibilità e motilità\n
+  - trauma e/o ferita da esplosione\n
+  - ustione di II o III grado  maggiore di 18% della superficie corporea o del volto (rischio ostruzione vie aeree)\n
+  - necessità di analgesia\n
+  - criteri di dinamica maggiore
+" />
+
+
+
+
+
+
     </LinearLayout>
 
 
