@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".abcdeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADBDE del malore"
+            android:textColor="#E91E63"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/anticipazioneTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="ANTICIPAZIONE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/anticipazioneText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Anticipazione\n
+- Verifica dei materiali\n
+- Distribuzione di compiti e ruoli\n
+- Distribuzione del materiale da portare (zaino, aspiratore, O2, DAE)." />
+
+        <TextView
+            android:id="@+id/qlTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="QUICK LOOK"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/qlText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- accessibilità\n
+- vitalità\n
+- cute\n
+- emorragie\n
+- aiuti" />
+
+        <TextView
+            android:id="@+id/ATV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="A – AIRWAY"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- valutazione della coscienza\n
+- pervietà delle vie aeree\n
+-Alert:\n
+  - paziente incoscente\n
+  - compromissione in atto delle vie aeree\n
+  - grave rischio di ostruzione delle vie aeree
+" />
+
+        <TextView
+            android:id="@+id/BTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="B – BREATHING"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/BText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Osserva il carattere del respiro (normale, difficoltoso, ecc.)\n
+- espansione della gabbia toracica (simmetrica, asimmetrica), utilizzo di eventuale muscolatura accessoria, presenza di rumori respiratori.\n
+- Palpa, se necessario, la gabbia toracica alla ricerca di lesioni o dolore alla palpazione.\n
+- Conta frequenza respiratoria.\n
+- Saturazione: rileva SpO2\n
+- Alert:\n
+  - dispnea\n
+  - FR maggiore di 30 o minore di 10 atti/minuto;\n
+  - saturazione minore 90% per chiedere la possibilità di somministrare O2
+" />
+        <TextView
+            android:id="@+id/CTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="C – CIRCULATION (CIRCOLAZIONE)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/CText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Presenza del polso, valutare ritmicità e frequenza\n
+- rilevare pressione arteriosa\n
+- valutare colorito cutaneo\n
+- valutare sudorazione\n
+- indice di shock\n
+- Alert:\n
+  - polso radiale assente\n
+  - FC minore di 50 o maggiore di 120 battiti/minuto\n
+  - PAS minore di 100 mmHg
+" />
+
+        <TextView
+            android:id="@+id/DTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="D – DISABILITY (DISABILITÀ) - Valutazione dello stato neurologico"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/DText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Scala SVDN\n
+- Sensibilità e motilità toccando o pizzicando uno alla volta i 4 arti e chiedendo di muoverli\n
+- GFAST con annotazione dell'ultima volta che il paziente è stato visto privo di sintomatologie il numero di telefono di un parente.\n
+- Alert:\n
+- mancata risposta allo stimolo verbale (livello D o N della scala SVDN)\n
+- scala di GFAST positiva
+" />
+
+        <TextView
+            android:id="@+id/ETV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="E – ESPOSIZIONE (ESPOSIZIONE)"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/EText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Raccolta dati - AMPIA:\n
+- Allergie\n
+- Medicinali\n
+- Patologie (diabete,ipertensione,epilessia, problemi cardiovascolari)\n
+- Ingerito ultimo pasto (quando?)\n
+- Altro\n
+- Gestione del dolore. Scala 0 -> 10 del dolore\n
+- Comunicazione con la COP (esito delle valutazioni e parametri vitali)
+" />
+
+    </LinearLayout>
+
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+</ScrollView>
