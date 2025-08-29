@@ -33,6 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -45,4 +48,7 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //implementation("com.github.DImuthuUpe:AndroidPdfViewer:3.1.0-beta.1")
+    implementation("com.github.barteksc:android-pdf-viewer:2.8.2")
 }

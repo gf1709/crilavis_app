@@ -5,7 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".zollActivity">
+    android:textAlignment="viewStart"
+    tools:context=".ZollActivity">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,21 +20,34 @@
             android:id="@+id/titleplsd"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
             android:text="Documentazione"
             android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginTop="3dp"
-            android:layout_marginStart="5dp"
-            />
-        <TextView
-            android:id="@+id/plsdText"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/viewPDFMattevi"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:layout_gravity="left"
             android:layout_marginStart="7dp"
             android:layout_marginTop="3dp"
             android:gravity="left"
-            android:text="- link al documento" />
-        
+            android:text="Mattevi Denise Pdf"
+            android:textAlignment="center"
+            android:textSize="12sp"></Button>
+
+        <Button
+            android:id="@+id/viewPDFGuidaRapida"
+            android:layout_width="151dp"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="Guida Rapida"
+            android:textAlignment="center"
+            android:textSize="12sp"></Button>
     </LinearLayout>
 </ScrollView>

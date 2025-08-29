@@ -22,14 +22,20 @@ class MainActivity : AppCompatActivity() {
 
         val abcdeImgButton = findViewById<ImageButton>(R.id.imageButtonabcde)
         abcdeImgButton.setOnClickListener {
-            val intent  = Intent(this, abcdeActivity::class.java)
+            val intent  = Intent(this, AbcdeActivity::class.java)
             startActivity(intent)
         }
         val blsdImgButton = findViewById<ImageButton>(R.id.imageButtonblsd)
         blsdImgButton.setOnClickListener {
-            val intent  = Intent(this, blsdActivity::class.java)
+            val intent  = Intent(this, BlsdActivity::class.java)
             startActivity(intent)
         }
+        val zollImgButton = findViewById<ImageButton>(R.id.imageButtonzoll)
+        zollImgButton.setOnClickListener {
+            val intent  = Intent(this, ZollActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 }

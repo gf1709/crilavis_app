@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,13 +14,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Crilavis">
         <activity
-            android:name=".zollActivity"
+            android:name=".PdfViewActivity"
             android:exported="false" />
         <activity
-            android:name=".blsdActivity"
+            android:name=".WebActivity"
             android:exported="false" />
         <activity
-            android:name=".abcdeActivity"
+            android:name=".ZollActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BlsdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AbcdeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
