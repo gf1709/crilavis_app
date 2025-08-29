@@ -17,13 +17,13 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/titleplsd"
+            android:id="@+id/titleZoll1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:layout_marginTop="3dp"
             android:text="Documentazione"
-            android:textSize="20sp"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <Button
@@ -35,7 +35,6 @@
             android:layout_marginTop="3dp"
             android:gravity="left"
             android:text="Mattevi Denise Pdf"
-            android:textAlignment="center"
             android:textSize="12sp"></Button>
 
         <Button
@@ -47,7 +46,108 @@
             android:layout_marginTop="3dp"
             android:gravity="left"
             android:text="Guida Rapida"
-            android:textAlignment="center"
             android:textSize="12sp"></Button>
+
+        <TextView
+            android:id="@+id/titleZoll2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Procedura di verifica/test"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- Accendere il monitor con il tasto verde situato nella parte superiore"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Estrarre il connettore per le placche. Premere il tasto nero al di sopra del connettore e nel medesimo tempo sfilare il cavo multifunzione"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/zoll_test_1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Impostare il monitor su Modalità manuale"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Collegare il cavo multifunzione al connettore test (nero), sullo schermo apparirà 'Rilevato corto  elettrodi'"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/zoll_test_2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Premere la freccia 'Selez. Energia' per impostare su 30 J"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/zoll_test_3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Premere il pulsante 'Carica' sul pannello frontale. Verificare che venga emesso un segnale acustico periodico mentre il defibrillatore è in carica"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/zoll_test_4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" - Al termine del ciclo di carica il segnale acustico è continuo. A questo  punto premere il pulsante 'Shock', che si è illuminato."
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/zoll_test_5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" -             Verificare che il defibrillatore esegua una scarica e che venga visualizzato
+            il messaggio: 'Test corto defib. Superato'"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp" />
+
+
+
     </LinearLayout>
 </ScrollView>

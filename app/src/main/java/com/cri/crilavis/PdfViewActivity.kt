@@ -28,7 +28,6 @@ class PdfViewActivity : AppCompatActivity(), OnPageErrorListener {
         var fileName = "zoll_Mattevi_Denise.pdf"
         if (fileType=="GuidaRapida")
             fileName="zoll_guida_rapida.pdf"
-//        pdfView.fromAsset("zoll_Mattevi_Denise.pdf").load()
         pdfView.fromAsset(fileName).load()
     }
 
