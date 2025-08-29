@@ -142,8 +142,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=" -             Verificare che il defibrillatore esegua una scarica e che venga visualizzato
-            il messaggio: 'Test corto defib. Superato'"
+            android:text=" - Verificare che il defibrillatore esegua una scarica e che venga visualizzato
+il messaggio: 'Test corto defib. Superato'"
             android:layout_marginTop="3dp"
             android:layout_marginStart="7dp" />
 
