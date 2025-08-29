@@ -148,6 +148,7 @@
             app:srcCompat="@drawable/appunti_main" />
 
         <ImageButton
+            android:id="@+id/imgButtonCodiciGravita"
             android:layout_width="113dp"
             android:layout_height="125dp"
             android:layout_marginStart="33dp"

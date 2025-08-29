@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodiciGravitaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segni e sintomi eclatanti"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="5dp"
+            android:gravity="left"
+            android:text="ANTICIPAZIONE"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- Dolore toracico\n
+- Cefalea intensa\n
+- Sanguinamento instenso\n
+- Sudorazione fredda\n
+- Alterazione psichica\n
+- Limitazione motoria" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Codici Rientro"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="1.Forma morbosa lieve\n
+  - Funzioni vitali normali e assenza di sintomi eclatanti\n
+2.Forma morbosa grave\n
+  - Una o più funzioni vitali alterate.\n
+  - Funzioni vitali normali ma presenza di uno o più sintomi eclatanti\n
+3.Compromissione delle funzioni vitali\n
+  - Gradi estremi di alterazione di una o più funzioni vitali.\n
+  - Coscienza: paziente che non risponde a stimolo verbale o doloroso\n
+  - Respiro: FR>30 atti/minuto\n
+  - Circolo: polso radiale non rilevabile\n
+  - Assenza di una o più funzioni vitali.\n
+4.Soggetto deceduto\n
+  - Assenza irreversibile di tutte le funzioni vitali (diagnosi medica)." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Patologie prevalenti"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:text="C1-TRAUMATICA\n
+C0101-cranio\n
+C0102-torace\n
+C0103-addome\n
+C0104-arti\n
+C0105-rachide\n
+C0106-emorragia\n
+C0107-amputazione\n
+C0108-ferita\n
+C0109-frattura\n
+C0110-contusione\n
+C0111-ustione\n
+C0112-folgorazione/elettrocuzione\n
+C0113-lesione da freddo\n
+C0114-lesione agli occhi\n
+C0115-politraumatismo\n
+C0116-altra dinamica traumatica" />
+
+<TextView
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="3dp"
+    android:gravity="left"
+    android:text="C02-CARDIOCIRCOLATORIA\n
+C0201-crisi ipertensiva\n
+C0202-scompenso cardio circolatorio\n
+C0203-dolore toracico\n
+C0204-cardiopalmo/aritmia\n
+C0205-arresto cardio circolatorio\n
+C0206-sindrome coronarica acuta\n
+C0209-altra cardiocircolatoria\n
+" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:text="C03-RESPIRATORIA\n
+C0301-distress respiratorio\n
+C0302-corpo estraneo\n
+C0303-crisi asmatica\n
+C0304-immersione - sommersione\n
+C0305-insuff. respiratoria cronica\n
+C0309-altra respiratoria\n
+" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:text="C04-NEUROLOGICA\n
+C0401-convulsioni\n
+C0402-cefalea\n
+C0403-coma\n
+C0404-ictus\n
+C0405-decadimento psichico\n
+C0406-perdita di coscienza\n
+C0409-altra neurologica\n
+" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:text="C05-PSICHIATRICA\n
+C0501-tentato suicidio\n
+C0502-agitazione psicomotoria\n
+C0509-altra psichiatrica\n
+" />
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="3dp"
+                android:gravity="left"
+                android:text="C06-NEOPLASTICA\n
+C0601-Neoplastica\n
+" />
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C07-TOSSICOLOGICA\n
+C0700-intossicazione etilica\n
+C0701-ossido di carbonio\n
+C0702-farmaci\n
+C0703-alimenti\n
+C0704-sostanze chimiche\n
+C0705-overdose/stupefacenti\n
+C0709-altra intossicazione\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C08-METABOLICA\n
+C0801-iperglicemia\n
+C0802-ipoglicemia\n
+C0809-altra metabolica\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C09-GASTROENTEROLOGICA\n
+C0901-emorragia digestiva\n
+C0902-dolore addominale\n
+C0909-altra gastroenterologica\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C10-UROLOGICA\n
+C1001-colica renale\n
+C1002-ritenzione urinaria\n
+C1009-altra urologica\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C11-OCULISTICA\n
+C1101-ferita penetrante occhio\n
+C1109-altra oftalmologica\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C12-OTORINOLARINGOIATRICA\n
+C1201-epistassi\n
+C1202-corpo estraneo\n
+C1209-altra ORL\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C13-DERMATOLOGICA\n
+C1301-parassitosi\n
+C1302-reazione orticarioide\n
+C1309-altra dermatologica\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C14-OSTETRICO-GINECOLOGICA\n
+C1401-parto\n
+C1402-metrorragia\n
+C1403-minaccia aborto\n
+C1409-altra ostetrico-ginecologica\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C15-INFETTIVA\n
+C1501-stato febbrile\n
+C1509-altra infettiva\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C19-ALTRA PATOLOGIA\n
+C1901-stato febbrile\n
+C1902-NBCR\n
+C1909-altra\n
+" />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="C20-PATOLOGIA NON IDENTIFICATA\n
+C2001-patologia non identificata\n
+" />
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

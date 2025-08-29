@@ -58,6 +58,11 @@ class MainActivity : AppCompatActivity() {
             val intent  = Intent(this, AppuntiActivity::class.java)
             startActivity(intent)
         }
+        val codiciGravitaImgButton = findViewById<ImageButton>(R.id.imgButtonCodiciGravita)
+        codiciGravitaImgButton.setOnClickListener {
+            val intent  = Intent(this, CodiciGravitaActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }
