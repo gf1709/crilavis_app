@@ -18,18 +18,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="Segni e sintomi eclatanti"
             android:textSize="16sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="left"
-            android:layout_marginStart="3dp"
-            android:layout_marginTop="5dp"
-            android:gravity="left"
-            android:text="ANTICIPAZIONE"
             android:textStyle="bold" />
 
         <TextView
@@ -49,6 +40,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
             android:text="Codici Rientro"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -79,17 +71,19 @@
         android:layout_height="wrap_content"
         android:text="Patologie prevalenti"
         android:textSize="16sp"
+        android:layout_marginTop="8dp"
         android:textStyle="bold" />
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
-            android:layout_width="200dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             app:layout_constraintStart_toStartOf="parent"
@@ -115,11 +109,13 @@ C0108-ferita\n
 C0109-frattura\n
 C0110-contusione\n
 C0111-ustione\n
-C0112-folgorazione/elettrocuzione\n
+C0112-folgorazione\n
+  elettrocuzione\n
 C0113-lesione da freddo\n
 C0114-lesione agli occhi\n
 C0115-politraumatismo\n
-C0116-altra dinamica traumatica\n" />
+C0116-altra dinamica\n
+  traumatica\n" />
 
 <TextView
     android:layout_width="200dp"
