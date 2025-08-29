@@ -53,7 +53,11 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("FileType", "Pedimate_Manuale")
             startActivity(intent)
         }
-
+        val appuntiImgButton = findViewById<ImageButton>(R.id.imgButtonAppunti)
+        appuntiImgButton.setOnClickListener {
+            val intent  = Intent(this, AppuntiActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }

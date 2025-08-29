@@ -136,6 +136,7 @@
 
 
         <ImageButton
+            android:id="@+id/imgButtonAppunti"
             android:layout_width="113dp"
             android:layout_height="125dp"
             android:layout_marginStart="4dp"

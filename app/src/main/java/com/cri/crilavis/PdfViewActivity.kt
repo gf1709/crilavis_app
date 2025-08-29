@@ -32,6 +32,9 @@ class PdfViewActivity : AppCompatActivity() {
             fileName="sedia_scendiscale_meber_guida_rapida.pdf"
         else if (fileType=="Pedimate_Manuale")
             fileName="pedimate_Manuale_Uso.pdf"
+        else if (fileType=="Hytera")
+            fileName="Radio_HYTERA_guida_rapida.pdf"
+
         pdfView.fromAsset(fileName).load()
     }
 

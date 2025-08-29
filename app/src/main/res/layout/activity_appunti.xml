@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppuntiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RADIO"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="3dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:gravity="left"
+        android:text="- Canale 3 : Emergenza\n
+- Canale 6 : Programmati\n
+- Canale 7 : Elicottero
+    " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22531 - Sintonizzare radio ambulanza su radio portatile o la fissa in sede:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="3dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:gravity="left"
+        android:text="- Accendere l'apparato radio (pulsante in alto a destra);\n
+- Premere il pulsante 'menu (linea continua verticale in basso)' tre (3) volte per arrivare alla schermata menu IMMETTI ID / DIGITA ID;\n
+    - Digitare le ultime due cifre della selettiva (è il numero riportato sulla radio portatile) su cui si vuole 'inoltrare la chiamata' (es.01 (fissa-ufficio) /51 (portatile) /52…);\n
+    - Premere il pulsante 'menu' per dare conferma;\n
+    - Premere il pulsante rosso per uscire.
+    " />
+        <Button
+            android:id="@+id/btnGuidaHytera"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="Guida Rapida radio HYTERA"
+            android:textSize="12sp"></Button>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22533 - Sintonizzare radio ambulanza su radio portatile o la fissa in sede:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="3dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:gravity="left"
+        android:text="Sul display della radio in ambulanza sono presenti due numeri, quello di sinistra indica su quale radio trasmette la chiamata (01 quella fissa in sede, o 53 che sono gli ultimi due numeri scritti sulla radio portatile), quello di destra indica il canale (per esempio 03: emergenze)\n
+Per cambiare radio sulla quale girare la chiamata:\n
+- premere cancelletto sul terminale della radio in ambulanza per selezionare il numero di sinistra\n
+- sulla tastiera digitare il numero della radio (01 o 53)\n
+Si tenga presente che se sì vuole cambiare canale bisogna cambiare sia il canale sulla portatile che su quella in ambulanza." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comunicazione con la centrale"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="3dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:gravity="left"
+        android:text="- Premo il tasto relativo alla Selettiva e Aspetto risposta dalla centrale.\n
+- Ricevuto risposta dalla centrale premo pulsante di sinistra, aspetto 1 secondo e avvio la comunicazione" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ZOLL"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_marginTop="3dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:gravity="left"
+        android:text="Appena si accende va in modalità dae. Premere pausa per silenziarlo.\n
+Per fare ECG:\n
+- Selezionare il tasto 12\n
+- Collegare gli elettodi\n
+- Inserire i dati del paziente (iniziali cognome e nome) e gli ultimi 6 numeri del codice missione,\n
+- Chiedere al paziente di chiudere gli occhi e stare tranquillo\n
+- Quando vediamo che vengono rappresentate le linee sul display premere il tasto acquisizione (il primo in alto a sinistra , quello sopra il tasto 12)\n
+- Una volta acquisito il tracciato compare il tasto con la busta per inviare.\n
+Nota: Si tenga presente che quando si inseriscono i dati del paziente bisogna premere save per passare al campo successivo." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCOOP - Disposizione cinghie"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/scoop_cinghie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maschera Venturi"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/venturi01" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metodo SBAR per passaggio di presa incarico dell'assistito"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="3dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="- S : Situazione\n
+ - Presentarsi\n
+  - Identificare paziente e luogo\n
+  - Qual'è o sembra essere il problema\n
+  - Quick look\n
+- B : Background. Anamnesi, Contesto\n
+  - Informazioni su patologie pregresse\n
+  - Terapie del paziente\n
+- Allergie\n
+  - A : Assesment. Valutazione ABCDE\n
+  - A: Vie aeree\n
+  - B: Respirazione (OPACS)\n
+  - C: Circolazione (PAO, FC, Colorito)\n
+  - D: SVDN, Glicemia\n
+  - E: Valutazione globale, dolore, raccolta dati\n
+- R :Recommendation. Pianificazione\n
+  - Eventuali richieste alla centrale\n
+  - Supporto (sanitario avanzato, vvf, cc, altro)\n
+  - Eventuale centralizzazione" />
+
+        <Button
+            android:id="@+id/btnCheckList"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="3dp"
+            android:gravity="left"
+            android:text="Checklist ambulanza: form online"
+            android:textSize="12sp"></Button>
+
+    </LinearLayout>
+</ScrollView>
