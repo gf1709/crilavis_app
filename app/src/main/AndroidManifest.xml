@@ -14,6 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Crilavis">
         <activity
+            android:name=".CardiopaticaActivity"
+            android:exported="false" />
+        <activity
             android:name=".PdfViewActivity"
             android:exported="false" />
         <activity

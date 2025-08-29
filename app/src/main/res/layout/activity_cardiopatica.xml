@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardiopaticaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/titleZoll1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="3dp"
+        android:text="Cardiopatica e suo utilizzo"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Il paziente deve essere sempre trasportato con il lato testa a monte delle scale , sia in salita sia in discesa"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="7dp"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trasporto a tre operatori"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Durante il trasporto del paziente, sia in salita che in discesa dalle scale, è raccomandato che due operatori si dispongano uno di fronte all'altro, con la presenza, se possibile, di un terzo operatore debitamente addestrato il cui ruolo sia solo assistere"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="7dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="7dp"
+        app:srcCompat="@drawable/cardiopatica03" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trasporto a due operatori"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nel caso di mancanza del terzo soccorritore, è ammesso che l'operatore sul lato della schiena durante la salita e sul lato dei piedi durante la discesa si trovi rivolto in avanti, con la schiena voltata verso il paziente"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="7dp"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/cardiopatica01" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/cardiopatica04" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -36,6 +36,24 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val cardiopaticaImgButton = findViewById<ImageButton>(R.id.imgButtonCardiopatica)
+        cardiopaticaImgButton.setOnClickListener {
+            val intent  = Intent(this, CardiopaticaActivity::class.java)
+            startActivity(intent)
+        }
+        val scoiattoloImgButton = findViewById<ImageButton>(R.id.imgButtonScoiattolo)
+        scoiattoloImgButton.setOnClickListener {
+            val intent  = Intent(this, PdfViewActivity::class.java)
+            intent.putExtra("FileType", "Scoiattolo_Guida_Rapida")
+            startActivity(intent)
+        }
+        val pedimateImgButton = findViewById<ImageButton>(R.id.imgButtonPedimate)
+        pedimateImgButton.setOnClickListener {
+            val intent  = Intent(this, PdfViewActivity::class.java)
+            intent.putExtra("FileType", "Pedimate_Manuale")
+            startActivity(intent)
+        }
+
     }
 
 }
