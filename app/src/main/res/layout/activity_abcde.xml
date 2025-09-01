@@ -119,7 +119,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="3dp"
             android:gravity="left"
-            android:text="- Osserva il carattere del respiro (normale, difficoltoso, ecc.)\n
+            android:text="- Osserva il carattere del respiro (normale, difficoltoso)\n
 - espansione della gabbia toracica (simmetrica, asimmetrica), utilizzo di eventuale muscolatura accessoria, presenza di rumori respiratori.\n
 - Palpa, se necessario, la gabbia toracica alla ricerca di lesioni o dolore alla palpazione.\n
 - Conta frequenza respiratoria.\n
@@ -135,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginStart="3dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="3dp"
             android:gravity="left"
             android:text="C – CIRCULATION (CIRCOLAZIONE)"
             android:textStyle="bold" />
@@ -178,12 +178,12 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="3dp"
             android:gravity="left"
-            android:text="- Scala SVDN\n
+            android:text=" - Scala SVDN\n
 - Sensibilità e motilità toccando o pizzicando uno alla volta i 4 arti e chiedendo di muoverli\n
 - GFAST con annotazione dell'ultima volta che il paziente è stato visto privo di sintomatologie il numero di telefono di un parente.\n
 - Alert:\n
-- mancata risposta allo stimolo verbale (livello D o N della scala SVDN)\n
-- scala di GFAST positiva
+  - mancata risposta allo stimolo verbale (livello D o N della scala SVDN)\n
+  - scala di GFAST positiva
 " />
 
         <TextView
@@ -337,7 +337,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="3dp"
             android:gravity="left"
-            android:text="- Osserva il carattere del respiro (normale, difficoltoso, ecc.)\n
+            android:text="- Osserva il carattere del respiro (normale, difficoltoso)\n
 - espansione della gabbia toracica (simmetrica, asimmetrica)\n
 - utilizzo di eventuale muscolatura accessoria.\n
 - presenza di rumori respiratori.\n
@@ -369,7 +369,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="3dp"
             android:gravity="left"
-            android:text="- trattamento di eventuali emorragie\n
+            android:text=" - trattamento di eventuali emorragie\n
 - presenza del polso, valutare ritmicità e frequenza\n
 - rilevare pressione arteriosa\n
 - valutare colorito cutaneo\n
@@ -389,7 +389,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="left"
             android:layout_marginStart="3dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="10dp"
             android:gravity="left"
             android:text="D – DISABILITY (DISABILITÀ) - Valutazione dello stato neurologico\n"
             android:textStyle="bold" />
@@ -402,7 +402,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="3dp"
             android:gravity="left"
-            android:text="- Scala SVDN\n
+            android:text=" - Scala SVDN\n
 - Alert:\n
 - mancata risposta allo stimolo verbale (livello D o N della scala SVDN)\n
 - paziente cosciente ma con riferita perdita di coscienza
@@ -437,20 +437,20 @@
 - dolore\n
 - Protezione termica\n
 - Dinamica dell’evento. Gli eventi di dinamica maggiore sono:\n
-- caduta da oltre 3 m di altezza (o comunque da più della propria altezza nel paziente di età  minore di 14 anni o maggiore di 65 anni);\n
-- eiezione dal veicolo\n
-- proiezione a distanza ( maggiore di 2 metri)\n
-- tempi di estricazione prolungati ( maggiore di 20 min)\n
-- grave deformità del veicolo\n
-- presenza di persone decedute nel veicolo\n
-- arrotamento o schiacciamento da parte del veicolo\n
-- deformazione e/o mancanza del casco protettivo\n
-- età inferiore a 5 anni\n
+  - caduta da oltre 3 m di altezza (o comunque da più della propria altezza nel paziente di età  minore di 14 anni o maggiore di 65 anni);\n
+  - eiezione dal veicolo\n
+  - proiezione a distanza ( maggiore di 2 metri)\n
+  - tempi di estricazione prolungati ( maggiore di 20 min)\n
+  - grave deformità del veicolo\n
+  - presenza di persone decedute nel veicolo\n
+  - arrotamento o schiacciamento da parte del veicolo\n
+  - deformazione e/o mancanza del casco protettivo\n
+  - età inferiore a 5 anni\n
 - Raccolta dati - AMPIA:\n
-- Allergie\n
-- Medicinali\n
-- Patologie (diabete,ipertensione,epilessia, problemi cardiovascolari)\n
-- Ingerito ultimo pasto (quando?)\n
+  - Allergie\n
+  - Medicinali\n
+  - Patologie (diabete,ipertensione,epilessia, problemi cardiovascolari)\n
+  - Ingerito ultimo pasto (quando?)\n
 - Altro\n
 - Gestione del dolore. Scala 0 - maggiore di  10 del dolore\n
 - Comunicazione con la COP (esito delle valutazioni e parametri vitali)\n

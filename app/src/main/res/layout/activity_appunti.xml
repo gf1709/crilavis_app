@@ -32,7 +32,7 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="3dp"
         android:gravity="left"
-        android:text="- Canale 3 : Emergenza\n
+        android:text=" - Canale 3 : Emergenza\n
 - Canale 6 : Programmati\n
 - Canale 7 : Elicottero
     " />
@@ -143,8 +143,8 @@ Nota: Si tenga presente che quando si inseriscono i dati del paziente bisogna pr
             android:layout_marginTop="3dp"/>
 
         <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_marginStart="7dp"
             android:layout_marginTop="3dp"
             app:srcCompat="@drawable/scoop_cinghie" />
@@ -160,7 +160,7 @@ Nota: Si tenga presente che quando si inseriscono i dati del paziente bisogna pr
         <ImageView
             android:layout_width="400dp"
             android:layout_height="400dp"
-            android:layout_marginStart="7dp"
+            android:layout_marginStart="1dp"
             android:layout_marginTop="3dp"
             app:srcCompat="@drawable/venturi01" />
 

@@ -22,12 +22,16 @@ class MainActivity : AppCompatActivity() {
 
         val abcdeImgButton = findViewById<ImageButton>(R.id.imageButtonabcde)
         abcdeImgButton.setOnClickListener {
-            val intent  = Intent(this, AbcdeActivity::class.java)
+//            val intent  = Intent(this, AbcdeActivity::class.java)
+//            startActivity(intent)
+            val intent  = Intent(this, PdfViewActivity::class.java)
+            intent.putExtra("FileType", "abcde")
             startActivity(intent)
         }
         val blsdImgButton = findViewById<ImageButton>(R.id.imageButtonblsd)
         blsdImgButton.setOnClickListener {
-            val intent  = Intent(this, BlsdActivity::class.java)
+            val intent  = Intent(this, PdfViewActivity::class.java)
+            intent.putExtra("FileType", "blsd")
             startActivity(intent)
         }
         val zollImgButton = findViewById<ImageButton>(R.id.imageButtonzoll)
@@ -61,6 +65,12 @@ class MainActivity : AppCompatActivity() {
         val codiciGravitaImgButton = findViewById<ImageButton>(R.id.imgButtonCodiciGravita)
         codiciGravitaImgButton.setOnClickListener {
             val intent  = Intent(this, CodiciGravitaActivity::class.java)
+            startActivity(intent)
+        }
+        val emmaWebImgButton = findViewById<ImageButton>(R.id.imgButtonEmma)
+        emmaWebImgButton.setOnClickListener {
+            val intent  = Intent(this, PdfViewActivity::class.java)
+            intent.putExtra("FileType", "Emma")
             startActivity(intent)
         }
     }

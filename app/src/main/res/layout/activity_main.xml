@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="144dp"
         android:layout_marginTop="4dp"
-        android:text="Cri Documentation"
+        android:text="Cri- Documentatione"
         android:textColor="@android:color/holo_red_dark"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -33,59 +33,62 @@
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="1dp">
-
-
-    <ImageButton
-        android:id="@+id/imageButtonabcde"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
-        android:adjustViewBounds="false"
-        android:scaleType="fitCenter"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/abcde"
-        android:background="@drawable/custom_image_buttton"
-        />
-
-    <ImageButton
-        android:id="@+id/imageButtonblsd"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="31dp"
-        android:adjustViewBounds="false"
-        android:background="@drawable/custom_image_buttton"
-        android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/imageButtonzoll"
-        app:layout_constraintStart_toEndOf="@+id/imageButtonabcde"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/blsd" />
-
-    <ImageButton
-        android:id="@+id/imageButtonzoll"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="4dp"
-        android:adjustViewBounds="false"
-        android:background="@drawable/custom_image_buttton"
-        android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/zoll" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+
+        <ImageButton
+            android:id="@+id/imageButtonabcde"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/custom_image_buttton"
+            android:scaleType="fitCenter"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:srcCompat="@drawable/abcde" />
+
+        <ImageButton
+            android:id="@+id/imageButtonblsd"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/custom_image_buttton"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toStartOf="@+id/imageButtonzoll"
+            app:layout_constraintStart_toEndOf="@+id/imageButtonabcde"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:srcCompat="@drawable/blsd" />
+
+        <ImageButton
+            android:id="@+id/imageButtonzoll"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginStart="10dp"
+            android:adjustViewBounds="false"
+            android:background="@drawable/custom_image_buttton"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+            app:srcCompat="@drawable/zoll" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/riga2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@id/linearLayout"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout">
 
 
@@ -105,7 +108,7 @@
             android:id="@+id/imgButtonScoiattolo"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginStart="33dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="31dp"
             android:adjustViewBounds="false"
@@ -122,17 +125,18 @@
             android:adjustViewBounds="false"
             android:background="@drawable/custom_image_buttton"
             android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="-20dp"
             app:srcCompat="@drawable/pedimate" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/riga3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/riga2">
 
 
         <ImageButton
@@ -151,7 +155,7 @@
             android:id="@+id/imgButtonCodiciGravita"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginStart="33dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="31dp"
             android:adjustViewBounds="false"
@@ -160,6 +164,7 @@
             app:srcCompat="@drawable/codici_gravita" />
 
         <ImageButton
+            android:id="@+id/imgButtonEmma"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginTop="4dp"
@@ -168,16 +173,18 @@
             android:background="@drawable/custom_image_buttton"
             android:scaleType="fitCenter"
             app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="-20dp"
             app:srcCompat="@drawable/emmaweb_main" />
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/riga4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+        app:layout_constraintTop_toBottomOf="@+id/riga3">
 
         <ImageButton
             android:layout_width="100dp"

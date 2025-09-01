@@ -34,6 +34,12 @@ class PdfViewActivity : AppCompatActivity() {
             fileName="pedimate_Manuale_Uso.pdf"
         else if (fileType=="Hytera")
             fileName="Radio_HYTERA_guida_rapida.pdf"
+        else if (fileType=="Emma")
+            fileName="emmaweb.pdf"
+        else if (fileType=="abcde")
+            fileName="abcde.pdf"
+        else if (fileType=="blsd")
+            fileName="blsd.pdf"
 
         pdfView.fromAsset(fileName).load()
     }
