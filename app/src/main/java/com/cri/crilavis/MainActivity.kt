@@ -12,6 +12,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.marginStart
+import androidx.core.view.marginTop
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 
@@ -38,7 +40,7 @@ class MainActivity : AppCompatActivity() {
                     newChip.layoutParams =
                         LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, 150)
                     newChip.text = assetFile.replace(".pdf", "")
-                    newChip.chipBackgroundColor = ColorStateList.valueOf(Color.CYAN)
+                    newChip.chipBackgroundColor = ColorStateList.valueOf(Color.RED)
                     newChip.setOnClickListener {
                         Toast.makeText(
                             this@MainActivity,
@@ -61,57 +63,57 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val abcdeImgButton = findViewById<ImageButton>(R.id.imageButtonabcde)
-        abcdeImgButton.setOnClickListener {
-            val intent  = Intent(this, PdfViewActivity::class.java)
-            intent.putExtra("FileType", "abcde")
-            startActivity(intent)
-        }
-        val blsdImgButton = findViewById<ImageButton>(R.id.imageButtonblsd)
-        blsdImgButton.setOnClickListener {
-            val intent  = Intent(this, PdfViewActivity::class.java)
-            intent.putExtra("FileType", "blsd")
-            startActivity(intent)
-        }
-        val zollImgButton = findViewById<ImageButton>(R.id.imageButtonzoll)
-        zollImgButton.setOnClickListener {
-            val intent  = Intent(this, ZollActivity::class.java)
-            startActivity(intent)
-        }
-
-        val cardiopaticaImgButton = findViewById<ImageButton>(R.id.imgButtonCardiopatica)
-        cardiopaticaImgButton.setOnClickListener {
-            val intent  = Intent(this, CardiopaticaActivity::class.java)
-            startActivity(intent)
-        }
-        val scoiattoloImgButton = findViewById<ImageButton>(R.id.imgButtonScoiattolo)
-        scoiattoloImgButton.setOnClickListener {
-            val intent  = Intent(this, PdfViewActivity::class.java)
-            intent.putExtra("FileType", "Scoiattolo_Guida_Rapida")
-            startActivity(intent)
-        }
-        val pedimateImgButton = findViewById<ImageButton>(R.id.imgButtonPedimate)
-        pedimateImgButton.setOnClickListener {
-            val intent  = Intent(this, PdfViewActivity::class.java)
-            intent.putExtra("FileType", "Pedimate_Manuale")
-            startActivity(intent)
-        }
-        val appuntiImgButton = findViewById<ImageButton>(R.id.imgButtonAppunti)
-        appuntiImgButton.setOnClickListener {
-            val intent  = Intent(this, AppuntiActivity::class.java)
-            startActivity(intent)
-        }
-        val codiciGravitaImgButton = findViewById<ImageButton>(R.id.imgButtonCodiciGravita)
-        codiciGravitaImgButton.setOnClickListener {
-            val intent  = Intent(this, CodiciGravitaActivity::class.java)
-            startActivity(intent)
-        }
-        val emmaWebImgButton = findViewById<ImageButton>(R.id.imgButtonEmma)
-        emmaWebImgButton.setOnClickListener {
-            val intent  = Intent(this, PdfViewActivity::class.java)
-            intent.putExtra("FileType", "Emma")
-            startActivity(intent)
-        }
+//        val abcdeImgButton = findViewById<ImageButton>(R.id.imageButtonabcde)
+//        abcdeImgButton.setOnClickListener {
+//            val intent  = Intent(this, PdfViewActivity::class.java)
+//            intent.putExtra("FileType", "abcde")
+//            startActivity(intent)
+//        }
+//        val blsdImgButton = findViewById<ImageButton>(R.id.imageButtonblsd)
+//        blsdImgButton.setOnClickListener {
+//            val intent  = Intent(this, PdfViewActivity::class.java)
+//            intent.putExtra("FileType", "blsd")
+//            startActivity(intent)
+//        }
+//        val zollImgButton = findViewById<ImageButton>(R.id.imageButtonzoll)
+//        zollImgButton.setOnClickListener {
+//            val intent  = Intent(this, ZollActivity::class.java)
+//            startActivity(intent)
+//        }
+//
+//        val cardiopaticaImgButton = findViewById<ImageButton>(R.id.imgButtonCardiopatica)
+//        cardiopaticaImgButton.setOnClickListener {
+//            val intent  = Intent(this, CardiopaticaActivity::class.java)
+//            startActivity(intent)
+//        }
+//        val scoiattoloImgButton = findViewById<ImageButton>(R.id.imgButtonScoiattolo)
+//        scoiattoloImgButton.setOnClickListener {
+//            val intent  = Intent(this, PdfViewActivity::class.java)
+//            intent.putExtra("FileType", "Scoiattolo_Guida_Rapida")
+//            startActivity(intent)
+//        }
+//        val pedimateImgButton = findViewById<ImageButton>(R.id.imgButtonPedimate)
+//        pedimateImgButton.setOnClickListener {
+//            val intent  = Intent(this, PdfViewActivity::class.java)
+//            intent.putExtra("FileType", "Pedimate_Manuale")
+//            startActivity(intent)
+//        }
+//        val appuntiImgButton = findViewById<ImageButton>(R.id.imgButtonAppunti)
+//        appuntiImgButton.setOnClickListener {
+//            val intent  = Intent(this, AppuntiActivity::class.java)
+//            startActivity(intent)
+//        }
+//        val codiciGravitaImgButton = findViewById<ImageButton>(R.id.imgButtonCodiciGravita)
+//        codiciGravitaImgButton.setOnClickListener {
+//            val intent  = Intent(this, CodiciGravitaActivity::class.java)
+//            startActivity(intent)
+//        }
+//        val emmaWebImgButton = findViewById<ImageButton>(R.id.imgButtonEmma)
+//        emmaWebImgButton.setOnClickListener {
+//            val intent  = Intent(this, PdfViewActivity::class.java)
+//            intent.putExtra("FileType", "Emma")
+//            startActivity(intent)
+//        }
     }
 
 }

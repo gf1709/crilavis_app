@@ -7,219 +7,40 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="4dp"
-        android:text="Cri- Documentatione"
-        android:textColor="@android:color/holo_red_dark"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="1dp">
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:orientation="horizontal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
-
-
-        <ImageButton
-            android:id="@+id/imageButtonabcde"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-            app:srcCompat="@drawable/abcde" />
-
-        <ImageButton
-            android:id="@+id/imageButtonblsd"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="4dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:layout_constraintEnd_toStartOf="@+id/imageButtonzoll"
-            app:layout_constraintStart_toEndOf="@+id/imageButtonabcde"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-            app:srcCompat="@drawable/blsd" />
-
-        <ImageButton
-            android:id="@+id/imageButtonzoll"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:layout_marginStart="10dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-            app:srcCompat="@drawable/zoll" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/riga2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="@id/linearLayout"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-
-        <ImageButton
-            android:id="@+id/imgButtonCardiopatica"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/cardiopatica_main" />
-
-        <ImageButton
-            android:id="@+id/imgButtonScoiattolo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="31dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/scoiattolo" />
-
-        <ImageButton
-            android:id="@+id/imgButtonPedimate"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            android:layout_marginStart="-20dp"
-            app:srcCompat="@drawable/pedimate" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/riga3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/riga2">
-
-
-        <ImageButton
-            android:id="@+id/imgButtonAppunti"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/appunti_main" />
-
-        <ImageButton
-            android:id="@+id/imgButtonCodiciGravita"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="31dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:srcCompat="@drawable/codici_gravita" />
-
-        <ImageButton
-            android:id="@+id/imgButtonEmma"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="4dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginStart="-20dp"
-            app:srcCompat="@drawable/emmaweb_main" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/riga4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/riga3">
-
-        <ImageButton
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginTop="4dp"
-            android:adjustViewBounds="false"
-            android:background="@drawable/custom_image_buttton"
-            android:scaleType="fitCenter"
-            app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/wolunteering" />
-    </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/riga5"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_marginTop="4dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/riga4">
+        >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="4dp"
+            android:text="Cri- Documentatione"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <com.google.android.material.chip.ChipGroup
+            android:id="@+id/riga6"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/riga6">
+            android:layout_margin="4dp">
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/checklist_ambulanza"
                 android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:text="check list ambulanza"
-                app:chipBackgroundColor="@android:color/holo_blue_bright" />
+                android:layout_height="40dp"
+                app:chipBackgroundColor="@android:color/holo_green_light"
+                android:text="check list ambulanza" />
 
         </com.google.android.material.chip.ChipGroup>
     </LinearLayout>

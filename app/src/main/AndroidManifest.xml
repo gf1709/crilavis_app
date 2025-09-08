@@ -14,28 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Crilavis">
         <activity
-            android:name=".CodiciGravitaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AppuntiActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CardiopaticaActivity"
-            android:exported="false" />
-        <activity
             android:name=".PdfViewActivity"
-            android:exported="false" />
-        <activity
-            android:name=".WebActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ZollActivity"
-            android:exported="false" />
-        <activity
-            android:name=".BlsdActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AbcdeActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
