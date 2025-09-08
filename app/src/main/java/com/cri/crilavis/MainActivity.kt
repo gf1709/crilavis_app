@@ -1,12 +1,20 @@
 package com.cri.crilavis
 
 import android.content.Intent
+import android.content.res.ColorStateList
+import android.graphics.Color
+import android.net.Uri
 import android.os.Bundle
 import android.widget.ImageButton
+import android.widget.LinearLayout
+import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.google.android.material.chip.Chip
+import com.google.android.material.chip.ChipGroup
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -14,16 +22,47 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
 
+        val assetFiles = getAssets().list("")
+        if (assetFiles != null) {
+            val layoutC: ChipGroup = findViewById(R.id.riga6)
+            for (assetFile in assetFiles) {
+                if (assetFile.endsWith(".pdf")) {
+                    val newChip = Chip(this)
+                    newChip.layoutParams =
+                        LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, 150)
+                    newChip.text = assetFile.replace(".pdf", "")
+                    newChip.chipBackgroundColor = ColorStateList.valueOf(Color.CYAN)
+                    newChip.setOnClickListener {
+                        Toast.makeText(
+                            this@MainActivity,
+                            "opening " + assetFile.replace(".pdf", "") + "...",
+                            Toast.LENGTH_LONG
+                        ).show()
+                        val intent = Intent(this, PdfViewActivity::class.java)
+                        intent.putExtra("FileName", assetFile)
+                        startActivity(intent)
+                    }
+                    layoutC.addView(newChip)
+                }
+            }
+        }
+
+        val checklist_ambulanza_button = findViewById<Chip>(R.id.checklist_ambulanza)
+        checklist_ambulanza_button.setOnClickListener {
+            val uri = Uri.parse("https://forms.gle/PAAswQ4JDT5Ye9zH8")
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
+
         val abcdeImgButton = findViewById<ImageButton>(R.id.imageButtonabcde)
         abcdeImgButton.setOnClickListener {
-//            val intent  = Intent(this, AbcdeActivity::class.java)
-//            startActivity(intent)
             val intent  = Intent(this, PdfViewActivity::class.java)
             intent.putExtra("FileType", "abcde")
             startActivity(intent)

@@ -197,4 +197,31 @@
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/wolunteering" />
     </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/riga5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riga4">
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/riga6">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/checklist_ambulanza"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:text="check list ambulanza"
+                app:chipBackgroundColor="@android:color/holo_blue_bright" />
+
+        </com.google.android.material.chip.ChipGroup>
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
