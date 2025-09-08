@@ -37,9 +37,9 @@
 
             <com.google.android.material.chip.Chip
                 android:id="@+id/checklist_ambulanza"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                app:chipBackgroundColor="@android:color/holo_green_light"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+                app:chipBackgroundColor="@android:color/holo_green_dark"
                 android:text="check list ambulanza" />
 
         </com.google.android.material.chip.ChipGroup>
